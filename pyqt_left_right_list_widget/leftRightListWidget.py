@@ -11,7 +11,7 @@ class LeftRightListWidget(QListWidget):
     def _initUi(self):
         pass
 
-    def addLeftRightItem(self, left_str, right_str):
+    def addLeftRightItem(self, left_str: str, right_str: str):
         item = QListWidgetItem(self)
 
         left_lbl = QLabel(left_str)
